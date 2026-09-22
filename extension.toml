@@ -1,0 +1,7 @@
+id = "nvchad-themes"
+name = "NvChad Themes"
+description = "NvChad base46 themes ported for Zed: Ashes, Aquarium, Chadtain, Chocolate, Kanagawa Dragon, Monochrome, Mountain and Nightlamp"
+version = "0.2.0"
+schema_version = 1
+authors = ["aminbista <aminbista6666@gmail.com>"]
+repository = "https://github.com/aminbista66/nvchad-themes"
