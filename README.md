@@ -77,6 +77,16 @@ Then select a theme from the theme selector.
 }
 ```
 
+## Building
+
+The theme files in `themes/` are generated. `build.py` downloads each palette from base46 and maps it onto Zed's theme schema:
+
+```sh
+python3 build.py
+```
+
+To add another NvChad theme, add its base46 file name (for example `"onedark"`) to `THEMES` in `build.py` and rerun. The script uses only the Python standard library.
+
 ## Contributing
 
 Issues and pull requests are welcome. To test changes locally, run `zed: install dev extension` from the command palette and point it at this repository.
